@@ -1,0 +1,18 @@
+# الاعتماديات
+node_modules/
+
+# مخرجات البناء
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# الأسرار — لا تُرفع إلى Git أبدًا
+.env
+.env.*
+!.env.example
+
+# السجلات والملفات المحلية
+*.log
+.DS_Store
+.vercel

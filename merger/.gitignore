@@ -1,0 +1,19 @@
+# الاعتماديات
+node_modules/
+
+# الأسرار — لا تُرفع أبدًا
+.env
+.env.local
+.env*.local
+
+# سجلات
+*.log
+npm-debug.log*
+
+# ملفات مؤقتة
+/tmp
+tmp/
+.DS_Store
+
+# ملفات الاختبار المولدة محليًا
+/test-assets
